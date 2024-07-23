@@ -3,7 +3,7 @@ import { View, Text, FlatList, TouchableOpacity, StyleSheet, Dimensions } from '
 import MapView, { Marker } from 'react-native-maps';
 import axios from 'axios';
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyBpHYrj8LHB3PiRLKaid_fRmtMbeP1ubuk';
+const GOOGLE_MAPS_API_KEY = 'YOUR_GOOGLE_MAPS_API_KEY';
 
 const App = () => {
   const [places, setPlaces] = useState([]);
